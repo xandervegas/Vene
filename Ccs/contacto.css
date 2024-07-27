@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.top-bar {
+    background-color: #ccc; /* Color gris */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.top-bar .logo img {
+    height: 100px;
+    border-radius: 70px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.top-bar .contact-info {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.top-bar .contact-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+.navbar {
+    background-color: #e0f7fa; /* Color pastel */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el navbar esté encima de otros elementos */
+}
+
+.navbar ul {
+    list-style-type: none; /* Quita las viñetas */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Utiliza flexbox para alinear los elementos en línea */
+    justify-content: center; /* Centra los elementos */
+}
+
+.navbar ul li {
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #00796b; /* Color pastel */
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #004d40; /* Color pastel más oscuro */
+}
+
+#contact .form-wrapper {
+    background-color: #e0f7fa; /* Fondo color pastel */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto; /* Centra el recuadro del formulario */
+    
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form .form-field {
+    margin-bottom: 15px;
+    padding: 1px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form .form-field label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+#contact form .form-field input,
+#contact form .form-field textarea {
+    width: 100%; 
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+}
+
+#contact form button {
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+}
+
+#contact form button:hover {
+    background-color: #004d40;
+}
+
+.footer {
+    background-color: #e0f7fa;
+    color: #00796b;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
